@@ -1,3 +1,8 @@
+package POJO;
+
+import POJO.Alumno;
+import POJO.Catedratico;
+
 public class Grupo {
     private String clave;
     private Materia materia;
@@ -67,7 +72,7 @@ public class Grupo {
 
     @Override
     public String toString() {
-        return "Grupo{" + "clave='" + clave + '\'' + ", materia=" + materia + ", catedratico=" + catedratico + ", hora=" + hora + ", salon=" + salon + ", alumno=" + alumno + '}';
+        return "POJO.Grupo{" + "clave='" + clave + '\'' + ", materia=" + materia + ", catedratico=" + catedratico + ", hora=" + hora + ", salon=" + salon + ", alumno=" + alumno + '}';
     }
 
     public void imprimir(){

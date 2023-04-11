@@ -1,3 +1,5 @@
+package POJO;
+
 public class Materia {
 
     private int id;
@@ -29,7 +31,7 @@ public class Materia {
 
     @Override
     public String toString() {
-        return "Materia{" + "id=" + id + ", nombre='" + nombre + '\'' + '}';
+        return "POJO.Materia{" + "id=" + id + ", nombre='" + nombre + '\'' + '}';
     }
 
     public void imprimir(){

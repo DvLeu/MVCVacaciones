@@ -1,4 +1,5 @@
-import java.util.EnumSet;
+import POJO.*;
+
 import java.util.Scanner;
 import java.util.Vector;
 
@@ -47,11 +48,11 @@ public class main {
 
     public static int menu(){
         System.out.println("MENU PRINCIPAL");
-        System.out.println("1.- Alta Especialidad");
-        System.out.println("2.- Alta Alumno");
-        System.out.println("3.- Alta Catedratico");
-        System.out.println("4.- Alta Materia ");
-        System.out.println("5.- Alta Grupo");
+        System.out.println("1.- Alta POJO.Especialidad");
+        System.out.println("2.- Alta POJO.Alumno");
+        System.out.println("3.- Alta POJO.Catedratico");
+        System.out.println("4.- Alta POJO.Materia ");
+        System.out.println("5.- Alta POJO.Grupo");
         System.out.println("6.- Imprimir BD");
         System.out.println("7.- Salir");
         return read.nextInt();
@@ -59,7 +60,7 @@ public class main {
 
     public static void altaEspecialidad(){
         int id;
-        System.out.println("Ingrese nombre de la Especialidad");
+        System.out.println("Ingrese nombre de la POJO.Especialidad");
         nombre = readline.nextLine();
         System.out.println("Ingresa la ID");
         id = read.nextInt();
@@ -71,7 +72,7 @@ public class main {
         Especialidad especialidad = null;
         System.out.println("Ingrese el número de Control");
         numControl = read.nextInt();
-        System.out.println("Ingrese el nombre del Alumno");
+        System.out.println("Ingrese el nombre del POJO.Alumno");
         nombre = readline.nextLine();
         for (int i = 0; i< especialidades.size(); i++){
             especialidad = especialidades.elementAt(i);
@@ -122,7 +123,7 @@ public class main {
     }
 
     public static void imprimirReporteBD(){
-        System.out.println("\n=== Reporte de Especialidad ===");
+        System.out.println("\n=== Reporte de POJO.Especialidad ===");
         for (int i = 0; i < especialidades.size(); i++) {
             especialidades.elementAt(i).imprimir();
         }

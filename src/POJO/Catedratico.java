@@ -1,3 +1,5 @@
+package POJO;
+
 public class Catedratico {
 
     private String RFC;
@@ -29,7 +31,7 @@ public class Catedratico {
 
     @Override
     public String toString() {
-        return "Catedratico{" + "RFC='" + RFC + '\'' + ", nombre='" + nombre + '\'' + '}';
+        return "POJO.Catedratico{" + "RFC='" + RFC + '\'' + ", nombre='" + nombre + '\'' + '}';
     }
 
     public void imprimir(){

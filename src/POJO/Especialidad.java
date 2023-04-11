@@ -1,3 +1,5 @@
+package POJO;
+
 public class Especialidad {
     private int id;
     private String nombre;
@@ -28,7 +30,7 @@ public class Especialidad {
 
     @Override
     public String toString() {
-        return "Especialidad{" + "id=" + id + ", nombre='" + nombre + '\'' + '}';
+        return "POJO.Especialidad{" + "id=" + id + ", nombre='" + nombre + '\'' + '}';
     }
 
     public void imprimir(){

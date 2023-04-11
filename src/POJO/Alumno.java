@@ -1,3 +1,5 @@
+package POJO;
+
 public class Alumno {
     private int numControl;
     private String nombre;
@@ -38,7 +40,7 @@ public class Alumno {
 
     @Override
     public String toString() {
-        return "Alumno{" + "numControl=" + numControl + ", nombre='" + nombre + '\'' + ", especialidad=" + especialidad + '}';
+        return "POJO.Alumno{" + "numControl=" + numControl + ", nombre='" + nombre + '\'' + ", especialidad=" + especialidad + '}';
     }
 
     public void imprimir(){
