@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="vision.visionGrupo">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="716" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="57bee" binding="pnlDatos1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6bcc1" class="javax.swing.JLabel" binding="lblClave">
+            <constraints/>
+            <properties>
+              <text value="Clave:"/>
+            </properties>
+          </component>
+          <component id="e6931" class="javax.swing.JTextField" binding="txtClave">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="85db0" binding="pnlDatos2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="bd53f" class="javax.swing.JLabel" binding="lblMateria">
+            <constraints/>
+            <properties>
+              <text value="Materia:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="74858" binding="pnlDatos3" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5b0ae" class="javax.swing.JLabel" binding="lblCatedratico">
+            <constraints/>
+            <properties>
+              <text value="Catedratico:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="1600d" binding="pnlDatos4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="1184" class="javax.swing.JLabel" binding="lblHora">
+            <constraints/>
+            <properties>
+              <text value="Hora:"/>
+            </properties>
+          </component>
+          <component id="e17d8" class="javax.swing.JTextField" binding="txtHora">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="8c104" binding="pnlDatos5" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6b33f" class="javax.swing.JLabel" binding="lblSalon">
+            <constraints/>
+            <properties>
+              <text value="Salon:"/>
+            </properties>
+          </component>
+          <component id="673fc" class="javax.swing.JTextField" binding="txtSalon">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="b7d8f" binding="pnlDatos6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2506f" class="javax.swing.JLabel" binding="lblAlumno">
+            <constraints/>
+            <properties>
+              <text value="Alumno:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="7bff6" binding="pnlBotones" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e6021" class="javax.swing.JButton" binding="jbGuardar">
+            <constraints/>
+            <properties>
+              <text value="Guardar"/>
+            </properties>
+          </component>
+          <component id="c40ce" class="javax.swing.JButton" binding="jbSalir">
+            <constraints/>
+            <properties>
+              <text value="Salir"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
