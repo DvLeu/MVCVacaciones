@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="vision.visionEspecialidad">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="18" width="500" height="402"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.5"/>
+      <alignmentY value="0.5"/>
+      <autoscrolls value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="57502" binding="pnlDatos1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="3acb4" class="javax.swing.JLabel" binding="lblNombre">
+            <constraints/>
+            <properties>
+              <text value="Nombre:"/>
+            </properties>
+          </component>
+          <component id="2c71" class="javax.swing.JTextField" binding="txtNombre">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="8f1a2" binding="pnlDatos2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ad016" class="javax.swing.JLabel" binding="lblID">
+            <constraints/>
+            <properties>
+              <text value="ID:"/>
+            </properties>
+          </component>
+          <component id="3ff1" class="javax.swing.JTextField" binding="txtID">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="fced9" binding="pnlBotones" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f7ddd" class="javax.swing.JButton" binding="jbGuardar">
+            <constraints/>
+            <properties>
+              <text value="Guardar"/>
+            </properties>
+          </component>
+          <component id="d1f5e" class="javax.swing.JButton" binding="jbSalir">
+            <constraints/>
+            <properties>
+              <text value="Salir"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
