@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="vision.visionMenu">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="640" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="7208e" binding="pnlMenus1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7b84b" class="javax.swing.JMenuBar" binding="barraMenu">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="8669a" class="javax.swing.JMenu" binding="menuGuis">
+            <constraints/>
+            <properties>
+              <text value="Interfaces"/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="e5aae" class="javax.swing.JMenuItem" binding="itemEspecialidad">
+            <constraints/>
+            <properties>
+              <text value="Especialidad"/>
+            </properties>
+          </component>
+          <component id="7866a" class="javax.swing.JMenuItem" binding="itemCatedratico">
+            <constraints/>
+            <properties>
+              <text value="Catedratico"/>
+            </properties>
+          </component>
+          <component id="71359" class="javax.swing.JMenuItem" binding="itemMateria">
+            <constraints/>
+            <properties>
+              <text value="Materia"/>
+            </properties>
+          </component>
+          <component id="2c3e6" class="javax.swing.JMenuItem" binding="itemAlumno">
+            <constraints/>
+            <properties>
+              <text value="Alumno"/>
+            </properties>
+          </component>
+          <component id="10be5" class="javax.swing.JMenuItem" binding="itemGrupo">
+            <constraints/>
+            <properties>
+              <text value="Grupo"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

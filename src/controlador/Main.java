@@ -27,5 +27,7 @@ public class Main {
         visionGrupo visionG = new visionGrupo();
         controladorGrupo controladorG = new controladorGrupo(modeloG, visionG); */
 
+        visionMenu visionMe = new visionMenu();
+
     }
 }
