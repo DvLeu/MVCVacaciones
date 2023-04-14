@@ -38,7 +38,7 @@ public class controladorAlumno implements ActionListener {
     }
 
     public void Salir(){
-        System.exit(0);
+        VisionAlumno.dispose();
     }
 
 }

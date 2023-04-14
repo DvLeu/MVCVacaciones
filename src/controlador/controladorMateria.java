@@ -38,7 +38,7 @@ public class controladorMateria implements ActionListener {
     }
 
     public void Salir(){
-        System.exit(0);
+        VisionMateria.dispose();
     }
 
 

@@ -38,7 +38,7 @@ public class controladorEspecialidad implements ActionListener {
     }
 
     public void Salir(){
-        System.exit(0);
+        VisionEspecialidad.dispose();
     }
 
 }

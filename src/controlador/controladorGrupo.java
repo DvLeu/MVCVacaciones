@@ -39,7 +39,7 @@ public class controladorGrupo implements ActionListener {
     }
 
     public void Salir(){
-        System.exit(0);
+        VisionGrupo.dispose();
     }
 
 }
