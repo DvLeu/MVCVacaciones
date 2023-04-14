@@ -15,6 +15,7 @@ public class controladorGrupo implements ActionListener {
     public controladorGrupo(modeloGrupo ModeloGrupo, visionGrupo VisionGrupo){
         this.ModeloGrupo = new modeloGrupo();
         this.VisionGrupo = new visionGrupo();
+        this.VisionGrupo.setVisible(true);
 
         this.VisionGrupo.jbGuardar.addActionListener(this);
         this.VisionGrupo.jbSalir.addActionListener(this);

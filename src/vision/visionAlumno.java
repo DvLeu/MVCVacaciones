@@ -22,7 +22,7 @@ public class visionAlumno extends JFrame {
         setSize(500, 300);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setVisible(true);
+        setVisible(false);
     }
 
 }

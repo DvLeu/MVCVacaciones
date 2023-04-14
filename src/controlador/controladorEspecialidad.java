@@ -15,6 +15,7 @@ public class controladorEspecialidad implements ActionListener {
     public controladorEspecialidad(modeloEspecialidad ModeloEspecialidad, visionEspecialidad VisionEspecialidad){
         this.ModeloEspecialidad = new modeloEspecialidad();
         this.VisionEspecialidad = new visionEspecialidad();
+        this.VisionEspecialidad.setVisible(true);
 
         this.VisionEspecialidad.jbGuardar.addActionListener(this);
         this.VisionEspecialidad.jbSalir.addActionListener(this);

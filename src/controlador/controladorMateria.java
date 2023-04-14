@@ -15,6 +15,7 @@ public class controladorMateria implements ActionListener {
     public controladorMateria(modeloMateria ModeloMateria, visionMateria VisionMateria){
         this.ModeloMateria = new modeloMateria();
         this.VisionMateria = new visionMateria();
+        this.VisionMateria.setVisible(true);
 
         this.VisionMateria.jbGuardar.addActionListener(this);
         this.VisionMateria.jbSalir.addActionListener(this);

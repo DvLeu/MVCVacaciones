@@ -15,6 +15,7 @@ public class controladorAlumno implements ActionListener {
     public controladorAlumno(modeloAlumno ModeloAlumno, visionAlumno VisionAlumno){
         this.ModeloAlumno = new modeloAlumno();
         this.VisionAlumno = new visionAlumno();
+        this.VisionAlumno.setVisible(true);
 
         this.VisionAlumno.jbGuardar.addActionListener(this);
         this.VisionAlumno.jbSalir.addActionListener(this);
