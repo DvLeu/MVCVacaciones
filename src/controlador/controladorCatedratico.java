@@ -15,6 +15,7 @@ public class controladorCatedratico implements ActionListener {
     public controladorCatedratico(modeloCatedratico modeloCatedratico, visionCatedratico visionCatedratico){
         this.ModeloCatedratico = new modeloCatedratico();
         this.VisionCatedratico = new visionCatedratico();
+        this.VisionCatedratico.setVisible(true);
 
         this.VisionCatedratico.jbGuardar.addActionListener(this);
         this.VisionCatedratico.jbSalir.addActionListener(this);
