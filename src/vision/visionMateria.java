@@ -19,8 +19,8 @@ public class visionMateria extends JFrame {
         setContentPane(panelPrincipal);
         setSize(500, 300);
         setLocationRelativeTo(null);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setVisible(false);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setVisible(true);
     }
 
 

@@ -1,25 +1,22 @@
 package vision;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class visionGrupo extends JFrame{
     private JPanel panelPrincipal;
-    private JPanel pnlDatos1;
+    private JLabel lblClave;
+    private JLabel lblMateria;
+    private JLabel lblHora;
     public JTextField txtClave;
-    private JPanel pnlDatos2;
-    public JLabel lblMateria;
-    public JLabel lblClave;
-    private JPanel pnlDatos3;
-    public JLabel lblCatedratico;
-    private JPanel pnlDatos4;
-    public JLabel lblHora;
+    private JTextField txtMateria;
+    private JTextField txtCatedratico;
     public JTextField txtHora;
-    private JPanel pnlDatos5;
-    public JLabel lblSalon;
+    private JLabel lblSalon;
+    private JTextField txtAlumnos;
     public JTextField txtSalon;
-    private JPanel pnlDatos6;
-    public JLabel lblAlumno;
-    public JPanel pnlBotones;
+    private JLabel lblAlumnos;
     public JButton jbGuardar;
     public JButton jbSalir;
 
@@ -28,8 +25,19 @@ public class visionGrupo extends JFrame{
         setContentPane(panelPrincipal);
         setSize(500, 300);
         setLocationRelativeTo(null);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         setVisible(false);
+        jbSalir.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                visionMenu Menu= new visionMenu();
+                Menu.setVisible(true);
+                dispose();
+            }
+        });
     }
 
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
+    }
 }
