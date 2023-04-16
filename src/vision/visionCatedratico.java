@@ -1,17 +1,16 @@
 package vision;
 
 import javax.swing.*;
-import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class visionCatedratico extends JFrame {
     private JPanel panelPrincipal;
-    private JPanel pnlDatos1;
+    private JLabel lblNombre;
+    private JLabel lblRFC;
     public  JTextField txtNombre;
-    public JLabel lblNombre;
-    private JPanel pnlDatos2;
     public  JTextField txtRFC;
-    public JLabel lblRFC;
-    private JPanel pnlBotones;
+    private JButton salirButton;
     public JButton jbGuardar;
     public  JButton jbSalir;
 
@@ -20,8 +19,16 @@ public class visionCatedratico extends JFrame {
         setContentPane(panelPrincipal);
         setSize(500, 300);
         setLocationRelativeTo(null);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         setVisible(false);
+        salirButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                visionMenu Menu= new visionMenu();
+                Menu.setVisible(true);
+                dispose();
+            }
+        });
     }
 
 

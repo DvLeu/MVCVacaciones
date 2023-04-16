@@ -36,9 +36,11 @@ public class visionMenu extends JFrame {
         itemEspecialidad.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                dispose();
                 visionEspecialidad visionE = new visionEspecialidad();
                 modeloEspecialidad modeloE = new modeloEspecialidad();
                 new controladorEspecialidad(modeloE, visionE);
+                setVisible(false);
             }
         });
         itemCatedratico.addActionListener(new ActionListener() {
@@ -47,6 +49,7 @@ public class visionMenu extends JFrame {
                 visionCatedratico visionC = new visionCatedratico();
                 modeloCatedratico modeloC = new modeloCatedratico();
                 new controladorCatedratico(modeloC, visionC);
+                setVisible(false);
             }
         });
         itemMateria.addActionListener(new ActionListener() {
@@ -55,6 +58,7 @@ public class visionMenu extends JFrame {
                 visionMateria visionM = new visionMateria();
                 modeloMateria modeloM = new modeloMateria();
                 new controladorMateria(modeloM, visionM);
+                setVisible(false);
             }
         });
         itemAlumno.addActionListener(new ActionListener() {
@@ -63,6 +67,7 @@ public class visionMenu extends JFrame {
                 visionAlumno visionA = new visionAlumno();
                 modeloAlumno modeloA = new modeloAlumno();
                 new controladorAlumno(modeloA, visionA);
+                setVisible(false);
             }
         });
         itemGrupo.addActionListener(new ActionListener() {
@@ -71,6 +76,7 @@ public class visionMenu extends JFrame {
                 visionGrupo visionG = new visionGrupo();
                 modeloGrupo modeloG = new modeloGrupo();
                 new controladorGrupo(modeloG, visionG);
+                setVisible(false);
             }
         });
     }
