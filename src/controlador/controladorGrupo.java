@@ -1,5 +1,6 @@
 package controlador;
 
+import modelo.modeloGrupo;
 import vision.visionGrupo;
 
 import javax.swing.*;
