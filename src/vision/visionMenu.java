@@ -17,6 +17,7 @@ public class visionMenu extends JFrame {
     private JMenuItem itemMateria;
     private JMenuItem itemAlumno;
     private JMenuItem itemGrupo;
+    private JLabel lblFondo;
 
 
     public visionMenu(){
