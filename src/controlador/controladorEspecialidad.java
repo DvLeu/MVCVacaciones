@@ -1,6 +1,5 @@
 package controlador;
 
-import modelo.modeloEspecialidad;
 import vision.visionEspecialidad;
 
 import javax.swing.*;

@@ -1,6 +1,5 @@
 package controlador;
 
-import modelo.modeloMateria;
 import vision.visionMateria;
 
 import javax.swing.*;

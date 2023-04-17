@@ -1,6 +1,5 @@
 package controlador;
 
-import modelo.modeloCatedratico;
 import vision.visionCatedratico;
 
 import javax.swing.*;
