@@ -1,16 +1,15 @@
 package vision;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class visionMateria extends JFrame {
     private JPanel panelPrincipal;
-    private JPanel pnlDatos1;
+    private JLabel lblNombre;
     public JTextField txtNombre;
-    public JLabel lblNombre;
-    private JPanel pnlDatos2;
+    private JLabel lblID;
     public JTextField txtID;
-    public JLabel lblID;
-    private JPanel pnlBotones;
     public JButton jbGuardar;
     public JButton jbSalir;
 
@@ -19,8 +18,16 @@ public class visionMateria extends JFrame {
         setContentPane(panelPrincipal);
         setSize(500, 300);
         setLocationRelativeTo(null);
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        setVisible(true);
+        setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+        setVisible(false);
+        jbSalir.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                visionMenu Menu= new visionMenu();
+                Menu.setVisible(true);
+                dispose();
+            }
+        });
     }
 
 

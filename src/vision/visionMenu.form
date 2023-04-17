@@ -55,6 +55,14 @@
           </component>
         </children>
       </grid>
+      <component id="8ba48" class="javax.swing.JLabel" binding="lblFondo">
+        <constraints/>
+        <properties>
+          <icon value="Images/Fondito (1).jpg"/>
+          <opaque value="true"/>
+          <text value=""/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>
