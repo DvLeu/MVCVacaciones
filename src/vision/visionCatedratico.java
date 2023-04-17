@@ -10,7 +10,7 @@ public class visionCatedratico extends JFrame {
     private JLabel lblRFC;
     public  JTextField txtNombre;
     public  JTextField txtRFC;
-    private JButton salirButton;
+    public JButton salirButton;
     public JButton jbGuardar;
     public  JButton jbSalir;
 
@@ -21,7 +21,7 @@ public class visionCatedratico extends JFrame {
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         setVisible(false);
-        salirButton.addActionListener(new ActionListener() {
+        jbSalir.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 visionMenu Menu= new visionMenu();
